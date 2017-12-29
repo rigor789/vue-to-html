@@ -1,0 +1,25 @@
+{
+  "name": "vue-to-html",
+  "version": "1.0.0",
+  "description": "Render HTML using vue syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue",
+    "template",
+    "html"
+  ],
+  "author": "rigor789",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^11.5.1",
+    "jsdom-global": "^3.0.2",
+    "pretty": "^2.0.0",
+    "vue": "^2.5.13",
+    "vue-template-compiler": "^2.5.13"
+  }
+}
