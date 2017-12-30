@@ -1,5 +1,6 @@
 {
-  "name": "vue-to-html",
+  "name": "@rigor789/vue-to-html",
+  "repository": "https://github.com/rigor789/vue-to-html",
   "version": "1.0.0",
   "description": "Render HTML using vue syntax",
   "main": "index.js",
@@ -19,7 +20,6 @@
     "jsdom": "^11.5.1",
     "jsdom-global": "^3.0.2",
     "pretty": "^2.0.0",
-    "vue": "^2.5.13",
-    "vue-template-compiler": "^2.5.13"
+    "vue": "^2.5.13"
   }
 }
