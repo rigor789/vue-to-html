@@ -1,5 +1,6 @@
 <div class="PostPartial">
     <h1>{{ post.title }}</h1>
-
-    <div v-if="author">{{ author }}</div>
+    <div v-if="post.author">{{ post.author }}</div>
+    <div v-else>not author</div>
+    <partial:sample :message="post.message" v-if="post.message" />
 </div>
